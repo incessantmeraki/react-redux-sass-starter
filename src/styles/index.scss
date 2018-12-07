@@ -1,7 +1,7 @@
-$maincolor: #FF4500;
-$othercolor: #FF1111;
+@import "abstracts/mixins"
+@import "abstracts/variables"
 
-body {
-  background-color: blue;
-  font-size: 21px;
-}
+@import "abstracts/animations"
+@import "abstracts/base"
+@import "abstracts/typography"
+@import "abstracts/utilities"
